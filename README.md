@@ -40,7 +40,7 @@ All variables are 'time-invariant'. Can easily be matched with other county-leve
 20. effectivedate: same as prev, but statadate format (only in .dta file)
 21. stateeffectivedate_MDY: first date under a STATE stay-at-home order, in MM/DD/YYYY format
 22. state_effectivedate: same as prev, but statadate format (only in .dta file)
-23. density_pop: county population per 
+23. density_pop: county population per square mile
 24. density_housing_units: 
 25. vehicles: avg number of vehicles in household
 26. pubtrans: share of pop taking public transit to work
