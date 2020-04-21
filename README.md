@@ -86,12 +86,12 @@ A teleworkable index was constructed from O*NET data based on Dingel and Neiman'
 https://github.com/jdingel/DingelNeiman-workathome
 
 ### Definitive Healthcare: Hospital Bed Availability 
-Source for variables 28.--32.
+Source for variables 28-32.
 Hospital bed availability by county is available at:
 https://www.arcgis.com/home/item.html?id=1044bb19da8d4dbfb6a96eb1b4ebf629
 
 ### GHDx Health Data
-Source for variables 33.&mdash;38.
+Source for variables 33&ndash;38
 Prevalence of various diseases is available at:
 http://ghdx.healthdata.org/us-data
 
