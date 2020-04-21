@@ -61,19 +61,19 @@ All variables are 'time-invariant'. Can easily be matched with other county-leve
 ## Detailed Data Source Information
 
 ### MEDSL - MIT Election Data + Science Lab
-Source for variables 4.--17. 
+Source for variables 4&ndash;17. 
 Info on primary sources can be found here: https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.md
 
 
 ### NYT stay-at-home tracker
-Source for variables 19.--22.
+Source for variables 19&ndash;22.
 methodology/references: https://github.com/jrstromme/covid-stay-at-home-orders
 
 ### 2010 Census
-Source for variables 23. and 24. 
+Source for variables 23 and 24. 
 
 ### 2018 5 year ACS
-Source for variables 25.--26.
+Source for variables 25&ndash;26.
 Obtained from IPUMS USA. Source file omitted here because it is too large.
 Variables: STATEFIP, COUNTYFIP, PUMA, VEHICLES, PERNUM, PERWT, OCC, TRANWORK
 
@@ -86,7 +86,7 @@ A teleworkable index was constructed from O*NET data based on Dingel and Neiman'
 https://github.com/jdingel/DingelNeiman-workathome
 
 ### Definitive Healthcare: Hospital Bed Availability 
-Source for variables 28-32.
+Source for variables 28&ndash;32.
 Hospital bed availability by county is available at:
 https://www.arcgis.com/home/item.html?id=1044bb19da8d4dbfb6a96eb1b4ebf629
 
