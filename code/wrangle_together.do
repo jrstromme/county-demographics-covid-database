@@ -168,6 +168,11 @@ save $home/temp.dta, replace
 
 restore
 merge 1:1 county_fips using $home/temp
+drop _merge
+
+*save as oglala lakota fips, that's more consistent anyways
+replace county_fips = 46113 if county_fips == 46102
+
 
 *save stata version
 save $home/county_panel.dta, replace

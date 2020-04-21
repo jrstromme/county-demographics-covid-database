@@ -91,12 +91,12 @@ Hospital bed availability by county is available at:
 https://www.arcgis.com/home/item.html?id=1044bb19da8d4dbfb6a96eb1b4ebf629
 
 ### GHDx Health Data
-Source for variables 33.--38.
+Source for variables 33.&mdash;38.
 Prevalence of various diseases is available at:
 http://ghdx.healthdata.org/us-data
 
 ## Misc Notes:
-All source data, except for ACS data, are included in repository. Please see makefile for order in which .do and .R codes should be run. Some directories in .R and .do files will need to be adjusted if you try to run them on your own.
+All source data, except for ACS data, are included in repository. Please see makefile for order in which .do and .R codes should be run. Some directories in .R and .do files will need to be adjusted if you try to run them on your own. 'make all' will run all code start to finish (But ACS must be downloaded on your own and some paths changed).
 
 Comments and contributions welcome. Please acknowledge source if used.
 
