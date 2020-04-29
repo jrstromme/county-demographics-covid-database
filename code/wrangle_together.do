@@ -120,8 +120,12 @@ preserve
 clear
 import delimited $home/ACS/veh_pub_telework.csv, delimiter(comma) varnames(1)
 drop v1
-destring , replace
-destring , replace
+replace vehicles = "." if vehicles == "NA"
+destring vehicles, replace
+replace pubtrans = "." if pubtrans == "NA"
+destring pubtrans, replace
+replace teleworkable = "." if teleworkable == "NA"
+destring teleworkable, replace
 rename fips county_fips
 sort county_fips
 drop if county_fips > 2000 & county_fips < 2999
